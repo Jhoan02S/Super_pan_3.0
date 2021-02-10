@@ -1,0 +1,29 @@
+:root{
+    --bs-color-page: #ef5350 !important;
+}
+body{
+	padding-top: 142px;
+}
+.btn-success{
+	background:red;
+} 
+.title-banner{
+	font-size: 25px;
+	font-family: Oswald;
+}
+nav{
+    background: var(--bs-color-page);
+}
+footer{
+    background: var(--bs-color-page);
+}
+@media screen and (max-width: 360px) and (min-width: 0) and (max-height:;) and (min-height:;){
+    .shadow-lg{
+        box-shadow: none !important;
+    }
+    body{
+        padding-top: 87px; 
+        margin-top: 0;
+    }
+
+}
